@@ -1,0 +1,17 @@
+{
+  "name": "theme-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hugh Do",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.19.43",
+    "gatsby-theme-docs": "*",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
