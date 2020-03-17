@@ -1,6 +1,24 @@
 ---
 title: Home
 ---
+
 ## <!-- frontmatter -->
 
 These are docs!
+
+```js
+import Code from '../components/code';
+
+export default {
+  pre: Code,
+};
+```
+
+```js react-live
+() => (
+  <div>
+    <h2>A Button </h2>
+    <button onClick={() => alert('clicked!')}>Click me</button>
+  </div>
+);
+```
