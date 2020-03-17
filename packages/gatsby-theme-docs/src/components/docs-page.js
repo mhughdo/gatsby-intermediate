@@ -6,6 +6,7 @@ import React from 'react'
 
 import {MDXRenderer} from 'gatsby-plugin-mdx'
 import Layout from './layout'
+import TableOfContents from './table-of-contents'
 
 const DocsPage = ({page}) => {
     return (
@@ -21,6 +22,7 @@ const DocsPage = ({page}) => {
                 }}>
                 This page was updated {page.updated}
             </p>
+            <TableOfContents />
         </Layout>
     )
 }
